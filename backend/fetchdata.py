@@ -31,7 +31,7 @@ def get_words_list(training_size=200):
     for text in text_list:
         splitted = text.split(' ')
         for word in splitted:
-            if not word == "":
+            if not word == "" and not word.isnumeric():
                 final_words_list.append(word)
 
     return final_words_list
