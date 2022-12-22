@@ -1,10 +1,85 @@
 .App {
+  padding-top: 10px;
+  padding-bottom: 100px;
   text-align: center;
-  display: grid;
+  position: relative;
+  /* display: grid; */
   font-family: 'Prata', serif;
+  background: linear-gradient(124deg, #FFD4B2, #FFF6BD, #CEEDC7, #86C8BC);
+  background-size: 2200% 2200%;
+  -webkit-animation: rainbow 10s ease infinite;
+  -z-animation: rainbow 10s ease infinite;
+  -o-animation: rainbow 10s ease infinite;
+  animation: rainbow 10s ease infinite;
+  min-height: 100vh;
+}
+
+.wrapper {
+  background-color: rgb(248, 248, 248);
+  border-radius: 50px;
+  margin: 5em 12em 0 12em;
+  padding: 30px 30px 50px 30px;
 }
 
 h1 {
   font-family: 'Nabla', cursive;
   font-size: 5em;
+}
+
+
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%
+  }
+
+  50% {
+    background-position: 100% 19%
+  }
+
+  100% {
+    background-position: 0% 82%
+  }
+}
+
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%
+  }
+
+  50% {
+    background-position: 100% 19%
+  }
+
+  100% {
+    background-position: 0% 82%
+  }
+}
+
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%
+  }
+
+  50% {
+    background-position: 100% 19%
+  }
+
+  100% {
+    background-position: 0% 82%
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%
+  }
+
+  50% {
+    background-position: 100% 19%
+  }
+
+  100% {
+    background-position: 0% 82%
+  }
 }

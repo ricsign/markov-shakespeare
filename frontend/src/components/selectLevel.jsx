@@ -6,7 +6,7 @@ export default function SelectLevel({setPage, setLevel}) {
     <div>
       <div className="styled-select">
         <label htmlFor="level" className="label">
-          <h2>Level</h2>
+          <h2>Composition Level</h2>
         </label>
         <select id="level" name="level" ref={inputLevel}>
           <option value="5" selected>

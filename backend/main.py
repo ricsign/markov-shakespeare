@@ -14,13 +14,12 @@ def get_generation():
     length = request.args.get("length")
     length = 100 if not length else int(length)
     initial_word = request.args.get("initial_word")
-    initial_word = '' if not initial_word else str(initial_word)
+    initial_word = '' if not initial_word else str(initial_word).lower()
 
     words = get_words_list(training_size)
     g = make_graph(words)
     generated_text = generate(g, words, length, initial_word)
     generated_text = ' '.join(generated_text).capitalize() + '.'
-
     return jsonify(text=generated_text)
 
 

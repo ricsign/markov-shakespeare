@@ -1,11 +1,11 @@
 import './App.css';
 import './styles/select.css'
-import './components/selectLevel'
+import './styles/result.css'
 import { useState } from 'react';
 
-import SelectLevel from './components/selectLevel';
-import SelectInitialWord from './components/selectInitialWord';
-import SelectLength from './components/selectLength';
+import SelectLevel from './components/SelectLevel';
+import SelectInitialWord from './components/SelectInitialWord';
+import SelectLength from './components/SelectLength';
 import Result from './components/Result';
 
 
@@ -34,7 +34,10 @@ function App() {
     <div className="App">
 
       <h1>Markov Shakespeare</h1>
-      {renderPage(page, level, word, length, setPage, setLevel, setWord, setLength)}
+      <div className="wrapper">
+        {renderPage(page, level, word, length, setPage, setLevel, setWord, setLength)}
+      </div>
+      
       
     </div> 
   );

@@ -8,7 +8,7 @@ export default function SelectInitialWord({setPage, setWord}) {
         <label htmlFor="word" className="label">
           <h2>Initial Word</h2>
         </label>
-        <input type="text" ref={inputWord} />
+        <input type="text" ref={inputWord} style={{background: "transparent"}} />
       </div>
 
       <div>
