@@ -30,7 +30,7 @@ def make_graph(words):
 def main():
     words = get_words_list(300)
     g = make_graph(words)
-    generated_text = generate(g, words, 200, 'guard')
+    generated_text = generate(g, words, 200)
     generated_text = ' '.join(generated_text).capitalize()+'.'
     return generated_text
 
