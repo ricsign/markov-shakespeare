@@ -1,5 +1,5 @@
 # Markov Shakespeare
-Markov Shakespeare is a functional passage (sentence, paragraph, essay) generator using the Markov Chain model trained by the classic literature dataset.
+Markov Shakespeare is a classical passage (sentence, paragraph, essay) generator using the Markov Chain model trained by the classic literature dataset.
 
 ## Technologies
 Python (with Numpy, Pandas), Flask, SQLite, JavaScript, React
@@ -20,5 +20,7 @@ To learn more about the Markov Chain, [read here](https://en.wikipedia.org/wiki/
 
 
 The React app is connected to the Flask server, so it can send API requests and receive response from the server.
+
+In the app, you can set the level of composition (8 different levels varied by training sizes), the initial prompt, and length of the passage (9 different default length options). 
 
 
