@@ -2,6 +2,7 @@ import './App.css';
 import './styles/select.css'
 import './styles/result.css'
 import { useState } from 'react';
+import ReactModal from 'react-modal'
 
 import SelectLevel from './components/SelectLevel';
 import SelectInitialWord from './components/SelectInitialWord';
@@ -38,6 +39,13 @@ function App() {
         {renderPage(page, level, word, length, setPage, setLevel, setWord, setLength)}
       </div>
       
+      <a className="step-button" style={{marginTop:"100px", textDecoration:"none"}} href="https://github.com/ricsign/markov-shakespeare/blob/main/README.md">
+          <span>
+            ?
+          </span>
+      </a>
+
+
       
     </div> 
   );

@@ -1,5 +1,9 @@
+.result-h2 {
+    padding: 0.9em 5em 0 5em;
+}
+
 .result-textarea {
-    padding: 3em 5em 0 5em;
+    padding: 0 5em 0 5em;
     text-align: left;
     line-height: 2;
     text-indent: 4em;

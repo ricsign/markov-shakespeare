@@ -7,10 +7,10 @@
   font-family: 'Prata', serif;
   background: linear-gradient(124deg, #FFD4B2, #FFF6BD, #CEEDC7, #86C8BC);
   background-size: 2200% 2200%;
-  -webkit-animation: rainbow 10s ease infinite;
-  -z-animation: rainbow 10s ease infinite;
-  -o-animation: rainbow 10s ease infinite;
-  animation: rainbow 10s ease infinite;
+  -webkit-animation: rainbow 8s ease infinite;
+  -z-animation: rainbow 8s ease infinite;
+  -o-animation: rainbow 8s ease infinite;
+  animation: rainbow 8s ease infinite;
   min-height: 100vh;
 }
 
